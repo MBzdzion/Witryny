@@ -1,0 +1,77 @@
+body
+{
+  background-color: #636e72;
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%
+}
+.container a:link 
+{
+    color: #fff;
+	text-decoration: none;
+}
+
+.container a:visited 
+{
+    color: #fff;
+}
+
+.container a:hover 
+{
+    color: #fff;
+}
+
+.container a:active 
+{    
+	color: #fff;
+}
+.container
+{
+  margin-top: 60px;
+  margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
+	padding: 0;
+	margin-bottom: 25px;
+}
+
+.postcard
+{
+	display: inline-block;
+	width: 460px;
+	text-align: center;
+	padding: 5px;
+}
+
+.postcard p
+{
+	padding: 5px;
+	margin-top: 10px;
+}
+
+h1
+{
+	font-size: 32px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-top: 45px;	
+	margin-bottom: 30px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+/* Hover effects */
+
+.photo
+{
+	width: 450px;
+	transition: all 0.2s ease-in-out;
+}
+
+.photo:hover
+{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9);
+}
